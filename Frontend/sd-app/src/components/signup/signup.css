@@ -1,0 +1,106 @@
+/* ===== PAGE LAYOUT ===== */
+/* Centers the signup card on the screen */
+.signup-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-page-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 16px;
+}
+
+/* Main signup container */
+.signup-card {
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* ===== TITLE ===== */
+.signup-title {
+  font-size: 22px;
+  color: #1a1a2e;
+  margin-bottom: 15px;
+}
+
+/* ===== INPUT FIELDS ===== */
+/* Styles all input boxes */
+.signup-input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Highlight input when clicked */
+.signup-input:focus {
+  border-color: #4a90d9;
+  outline: none;
+}
+
+/* ===== PASSWORD REQUIREMENTS ===== */
+/* Each requirement row */
+.signup-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+/* Small circle showing pass/fail */
+.signup-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* ===== BUTTONS ===== */
+.signup-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  background: #1a1a2e;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Disabled button style */
+.signup-btn:disabled {
+  opacity: 0.5;
+}
+/* ── Footer ── */
+.signup-footer {
+  background: #1a1a2e;
+  padding: 28px 32px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.signup-footer a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.signup-footer a:hover {
+  color: #4a90d9;
+}

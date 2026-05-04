@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "H",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "OBJECTID": 4, "STATE": "NY", "Zone": "H", "Title": "Millwood" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -73.572828453819, 41.171717517949503 ], [ -73.904247945923203, 41.149296444570403 ], [ -73.964309569924097, 41.213873542297101 ], [ -73.978136797205096, 41.322999219143398 ], [ -73.687765029694603, 41.346359560476799 ], [ -73.572828453819, 41.171717517949503 ] ] ] ] } }
+]
+}

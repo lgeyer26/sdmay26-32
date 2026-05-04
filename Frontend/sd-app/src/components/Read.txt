@@ -1,0 +1,5 @@
+This folder will serve hold all the files for each new feature
+
+for example my sign in screen will be in components/signin/
+
+Hopefully this format will help keep our project organized

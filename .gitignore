@@ -1,0 +1,19 @@
+#Ignore database data
+Database/
+apache/
+Backend/.venv
+docker-compose.yml
+Backend/Dockerfile
+
+#Ignore venv
+Backend/venv/
+venv/
+__pycache__/
+.env
+
+#Ignore pycache
+__pycache__/
+*.pyc
+
+gunicorn.ctl
+*.ctl

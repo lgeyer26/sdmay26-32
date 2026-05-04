@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./Backend/App/utils/model_inference",
+        "./Backend/App/services"
+    ]
+}

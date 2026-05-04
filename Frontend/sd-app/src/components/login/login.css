@@ -1,0 +1,97 @@
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 16px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Title */
+.login-card h1 {
+  font-size: 22px;
+  margin-bottom: 4px;
+  color: #1a1a2e;
+}
+
+.login-subtitle {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box; /* FIXES RIGHT EDGE ISSUE */
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #4a90d9;
+}
+
+/* Error */
+.login-error {
+  color: #d9534f;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px; /* FIX SPACING */
+  background-color: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #4a90d9;
+}
+
+/* ── Footer ── */
+.login-footer {
+  background: #1a1a2e;
+  padding: 28px 32px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.login-footer a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.login-footer a:hover {
+  color: #4a90d9;
+}
